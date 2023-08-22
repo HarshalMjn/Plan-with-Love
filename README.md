@@ -2,7 +2,7 @@
 
 ## Overview
 ![love](https://github.com/HarshalMjn/Plan-with-reactApp/assets/110369391/fcba1db6-a3dc-4ae3-8723-ff7589da235c)
-This React-based app is designed to provide you with a tour itinerary exploration experience. With the help of the app, you can explore different tours, their descriptions, prices, and even remove tours that don't pique your interest. If you've seen all the available tours and want to start anew, there's a 'Refresh' button that brings back all the tours for you to rediscover.
+This React-based app is designed to provide you with a tour itinerary exploration experience. With the help of the app, you can explore different tours, their descriptions, prices, and even remove tours that don't pique your interest. If you've seen all the available tours and want to start a new, there's a 'Refresh' button that brings back all the tours for you to rediscover.
 
 ## Getting Started
 
