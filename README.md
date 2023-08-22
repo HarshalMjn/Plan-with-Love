@@ -1,72 +1,34 @@
-# Plan-with-reactApp
+"Welcome to the React Tour Itinerary App!
+(https://github.com/HarshalMjn/Plan-with-reactApp/assets/110369391/ca187e43-5811-4b18-b286-048789510c35)
 
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React-based app is designed to provide you with a tour itinerary exploration experience. With the help of the app, you can explore different tours, their descriptions, prices, and even remove tours that don't pique your interest. If you've seen all the available tours and want to start anew, there's a 'Refresh' button that brings back all the tours for you to rediscover.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install the required dependencies.
+4. Run `npm start` to start the development server.
+5. Open your browser and go to `http://localhost:3000` to see the app in action.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Tour Display**: The app displays a list of tours, each with an image, name, description, and price.
+- **Not Interested**: If you're not interested in a particular tour, you can click the 'Not Interested' button, and the tour card will be removed from the list.
+- **Refreshing**: When all tours have been explored and removed, a 'No Tours Left' message will appear. Clicking the 'Refresh' button will bring back all the tours for another round of exploration.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How It Works
 
-### `npm test`
+- The app uses the `useState` hook to manage the list of tours dynamically.
+- The `removeTour` function is called when the 'Not Interested' button is clicked. It filters out the tour with the provided `id` and updates the list.
+- When no tours are left, the UI displays the 'No Tours Left' message and offers a 'Refresh' button to bring back the tours.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Explore and Enjoy
 
-### `npm run build`
+Whether you're a travel enthusiast or a React developer looking to learn and explore, this app provides a fun and interactive way to dive into React concepts. Enjoy exploring the tours and understanding how React components, state management, and user interactions come together to create a seamless experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Happy touring!"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
